@@ -1,6 +1,11 @@
-Git Local Revision Number Hook
-
+Some Git Hooks
+==============
 By Nathan Gray
+
+This is going to be a collection of git hooks that I find useful.  For now there's just one.
+
+Git Local Revision Number Hook
+------------------------------
 
 This is a git update hook that assigns each commit a monotonically increasing local revision number.  You can think of it a bit like bringing a little bit of subversiony goodness to git.  (He he he.)  Seriously, this kind of thing makes sense when you have a central authoritative repository and a need to communicate with users who don't use git (e.g. the QA department) and it can make git an easier sell in corporate environments.
 
