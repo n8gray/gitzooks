@@ -2,7 +2,12 @@ Some Git Hooks
 ==============
 By Nathan Gray
 
-This is going to be a collection of git hooks that I find useful.  For now there's just one.
+This is going to be a collection of git hooks that I find useful.  For now there are two.
+
+Commit Exclusions
+-----------------
+
+I use this to reject any commit that adds the text "NOCOMMIT".  This allows me to throw crazy hacks into my code without fear that I'll overlook them at commit time.
 
 Git Local Revision Number Hook
 ------------------------------
