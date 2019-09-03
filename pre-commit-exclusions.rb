@@ -21,6 +21,9 @@
 # cd your_project
 # ln -s ~/.githooks/pre-commit .git/hooks
 
+# Without this I get errors about "invalid byte sequence in US-ASCII"
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
 
 FORBIDDEN = [
   /\bnocommit\b/i
